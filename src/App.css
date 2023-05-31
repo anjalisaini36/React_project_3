@@ -1,38 +1,241 @@
-.App {
-  text-align: center;
+.loginform{
+ margin-top: 120px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg-image{
+  background-image: url('https://mdbootstrap.com/img/new/textures/full/171.jpg');
+  resize: vertical;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  align-items:center ;
+}
+
+.signup-heading{
+  color: #ffffff;
+}
+
+.navbar{
+  background-color: #000000;
+  
+}
+
+.navbar-title{
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 30px;
+  font-size: large;
+
+  
+}
+
+.navbar-list{
+  display: flex;
+
+
+}
+.navbar-list li{
+  list-style: none;
+  margin: 13px 23px;
+  /* padding: 15px 10px; */
+ 
+ 
+}
+
+.navbar-list li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.login-signup-class a{
+  text-decoration: none;
+  color: #ffffff;
+  margin: 13px 23px;
+  border: #ffffff;
+}
+
+/* CSS of Home.js */
+/* section-1 */
+.header-class{
+  display: flex;
+  justify-content: space-around;
+}
+.heading-class{
+  /* text-align: left; */
+  display: block;
+  margin-left: 15px;
+  margin-top: 80px;
+  width: 50%;
+}
+/* .heading-class h1{
+  margin-bottom: 15px;
+  color: #a9a9a9;
+}
+.heading-class h4{
+  margin-bottom: 15px;
+  color: #a9a9a9;
+}
+.heading-class p{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: #a9a9a9;
+} */
+.class-h4{
+  color: #696969;
+}
+.input-class{
+  padding: 9px 20px;
+  margin: 3px;
+  font-size: 18px;
+  width: 60%;
+  border-color: #ff8c00;
+}
+.btn-class{
+  padding: 9px 20px;
+  /* font-size: 18px; */
+  margin: 0px;
+  color: #ffffff;
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+  /* border-width: 0; */
+  /* height: 50px; */
+  font-size: larger;
+}
+
+/* section-2 */
+.card-section{
+  display: flex;
+  justify-content: space-around;
+  background-color: #0ba6e4;
+}
+.card-wrapper{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.image-icon{
+  /* height: 20%; */
+  width: 25%;
+  margin: 20px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+/* section-3 */
+.section-3{
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  width: 35%;
+  margin-top: 20px;
+  margin-left: 20px;
 }
+.image-class{
+  width: 50%;
+}
+
+.section3-content{
+  margin-top: 60px;
+}
+
+.section3-content h5{
+  margin-top: 20px;
+  color: #696969;
+}
+/* .image-div{
+  margin-top: 30px;
+} */
+
+
+/* CSS for Restrurent.js */
+/* section-1 */
+.section1-header{
+  display: flex;
+  justify-content: space-between;
+  /* background: rgb(2,0,36); */
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(165,180,190,0.8645833333333334) 35%, rgba(0,212,255,1) 100%); */
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+/* .section1-heading{
+  margin-top: 30px;
+
+} */
+
+.section3-card{
+  display: flex;
+  justify-content: space-between;
+}
+.section3-cardImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 23%;
+
+}
+.section3-img{
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.R-section3-btn{
+  display: flex;
+margin: 5px;
+margin-left: 15px;
+
+}
+.section3-para{
+
+}
+
+.section2-slide{
+  display: flex;
+  justify-content: space-between;
+}
+.R-section2-img{
+
+}
+.R-section4-content{
+  border-color: #c5c3c3;
+  border-style: solid;
+  border-radius: 5%;
+  padding: 20px;
+  color: #696969;
+}
+
+.menu-card-class{
+  display: flex;
+  text-align: center; 
+}
+.menu-div-class{
+  align-items: center;
+  border: 2px solid #808080;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px #808080;
+
+}
+
+/* .menu-title-class{
+align-items: center;
+} */
+
+.menu-btn-class{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-para-class{
+  height: 90px;
+  overflow: hidden;
+  margin: 30px 0px;
+
+}
+
+/* .quantity-class{
+  margin-top: 10px;
+} */
